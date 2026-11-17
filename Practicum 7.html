@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      padding: 30px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .box {
+      background-color: #3a86ff;
+      color: white;
+      padding: 40px 10px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>My Photo Gallery</h2>
+  <div class="gallery">
+    <div class="box">Photo 1: Mountain</div>
+    <div class="box">Photo 2: Ocean</div>
+    <div class="box">Photo 3: Forest</div>
+    <div class="box">Photo 4: Desert</div>
+    <div class="box">Photo 5: Waterfall</div>
+    <div class="box">Photo 6: Sunset</div>
+  </div>
+
+</body>
+</html>
